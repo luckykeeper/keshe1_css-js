@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+#toc {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+#toc #full { display: none; } /* Hide the full TOC by default */
+
+#toc:hover #full{
+  display: block; /* Show it on hover */
+}
